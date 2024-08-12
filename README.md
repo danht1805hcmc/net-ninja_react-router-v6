@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# REACT ROUTER V6
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [React Router Docs](https://reactrouter.com/en/main)
+- [Truy cập các tệp khóa học trên GitHub](https://github.com/iamshaunjp/react-router-in-depth)
 
-## Available Scripts
+## Lesson
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| #   | Tiêu đề                                                                                                                                              | Mô tả                                                                                                                                                                                                                                                     |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| #1  | [Introduction](https://www.youtube.com/watch?v=OMQ2QARHPo0&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=1&pp=iAQB)                                  | Trong loạt bài hướng dẫn React Router này, chúng ta sẽ xem xét kỹ một số cách khác nhau mà chúng ta có thể làm việc với nó - bao gồm thiết lập các trang và bố cục khác nhau, các tuyến lồng nhau, sử dụng trình tải và hành động - và nhiều hơn thế nữa. |
+| #2  | [React Router Basics](https://www.youtube.com/watch?v=XN7E5tKM-no&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=2&pp=iAQB)                           | Trong bài học này, chúng ta sẽ tìm hiểu những kiến ​​thức cơ bản về React Router - cách thiết lập các tuyến & trang cũng như cách sử dụng các thành phần Liên kết để liên kết giữa các trang đó.                                                          |
+| #3  | [Router Provider, createBrowserRouter & Outlet](https://www.youtube.com/watch?v=5s57C7leXc4&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=3&pp=iAQB) | Trong hướng dẫn React Router này, bạn sẽ tìm hiểu cách tạo "cách mới" của bộ định tuyến trình duyệt, bằng cách sử dụng hàm `createBrowserRouter`. Bạn cũng sẽ tìm hiểu về các thành phần **Router Provider & Outlet components**.                         |
+| #4  | [Nested Routes & Layouts](https://www.youtube.com/watch?v=l8CS9AMBSIQ&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=4&pp=iAQB)                       | Trong hướng dẫn React Router này, bạn sẽ tìm hiểu cách tạo các tuyến lồng nhau và bố cục lồng nhau.                                                                                                                                                       |
+| #5  | [Custom 404 Page](https://www.youtube.com/watch?v=0sfBVj03sRY&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=5&pp=iAQB)                               |                                                                                                                                                                                                                                                           |
+| #6  | [Loaders](https://www.youtube.com/watch?v=K-bxVELldCc&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=6&pp=iAQB)                                       | Trong hướng dẫn React Router này, bạn sẽ tìm hiểu về trình tải - một cách mới hơn để tìm nạp dữ liệu thành phần.                                                                                                                                          |
+| #7  | [Route Parameters](https://www.youtube.com/watch?v=T8ZhepmbP4s&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=7&pp=iAQB)                              |                                                                                                                                                                                                                                                           |
+| #8  | [Error Elements](https://www.youtube.com/watch?v=n0Rvia8w7p0&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=8&pp=iAQB)                                | Trong hướng dẫn React Router này, bạn sẽ tìm hiểu cách sử dụng hook useLocation để tạo thành phần Breadcrumbs.                                                                                                                                            |
+| #9  | [Making Breadcrumbs (useLocation hook)](https://www.youtube.com/watch?v=zy8rqihtvA8&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=9&pp=iAQB)         |                                                                                                                                                                                                                                                           |
+| #10 | [Forms & Actions](https://www.youtube.com/watch?v=tvE8B1HBoOQ&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=10&pp=iAQB)                              | Trong hướng dẫn React Router này, bạn sẽ tìm hiểu về thành phần Biểu mẫu mới và cách sử dụng các hành động để phản ứng với việc gửi biểu mẫu.                                                                                                             |
+| #11 | [Navigate Component](https://www.youtube.com/watch?v=JNWSMJshmOQ&list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf&index=11&pp=iAQB)                           | Xin chào mọi người, trong hướng dẫn React Router này, bạn sẽ tìm hiểu cách sử dụng thành phần Điều hướng để chuyển hướng người dùng đến các trang khác.                                                                                                   |

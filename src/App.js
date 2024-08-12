@@ -1,25 +1,60 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from 'react-router-dom';
+
+// layouts
+import { CareersLayout, HelpLayout, RootLayout } from './layouts';
+
+// pages
+import {
+  AboutPage,
+  CareerDetail,
+  careerDetailLoader,
+  careersLoader,
+  CareersPage,
+  contactAction,
+  ContactPage,
+  ErrorPage,
+  FAQPage,
+  HomePage,
+} from 'pages';
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='/' element={<RootLayout />} errorElement={<ErrorPage />}>
+      <Route index element={<HomePage />} />
+      <Route path='about' element={<AboutPage />} />
+
+      <Route path='help' element={<HelpLayout />}>
+        <Route path='faq' element={<FAQPage />} />
+        <Route
+          path='contact'
+          element={<ContactPage />}
+          action={contactAction}
+        />
+      </Route>
+
+      <Route
+        path='careers'
+        element={<CareersLayout />}
+        errorElement={<ErrorPage />}
+      >
+        <Route index element={<CareersPage />} loader={careersLoader} />
+        <Route
+          path=':id'
+          element={<CareerDetail />}
+          loader={careerDetailLoader}
+        />
+      </Route>
+    </Route>,
+  ),
+);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
